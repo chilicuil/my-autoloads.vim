@@ -1,0 +1,70 @@
+*my-autoloads.vim*                                             My global defaults
+
+==============================================================================
+CONTENTS                                                *MyVimAutoloadsContents*
+
+    1. Intro ........................... |MyVimAutoloadsIntro|
+    2. Usage ........................... |MyVimAutoloadsUsage|
+    3. Configuration ................... |MyVimAutoloadsConfig|
+    4. Bugs ............................ |MyVimAutoloadsBugs|
+    5. Contributing .................... |MyVimAutoloadsContributing|
+    6. Changelog ....................... |MyVimAutoloadsChangelog|
+    7. Credits ......................... |MyVimAutoloadsCredits|
+
+==============================================================================
+INTRO                                                      *MyVimAutoloadsIntro*
+
+my-autoloads.vim is a global plugin who set preferences according to they way I
+use [vim](http://vim.org). It sets highly opinionated settings. Probably not
+something you would like to use straight ahead.
+
+==============================================================================
+USAGE                                                      *MyVimAutoloadsUsage*
+
+Add. >
+
+        Bundle 'chilicuil/my-autoloads.vim'
+<
+To your $VIMRC file and run inside of vim: >
+
+        :BundleInstall
+<
+The plugin will activate upon vim reload.
+
+==============================================================================
+CONFIGURATION                                             *MyVimAutoloadsConfig*
+
+No configuration options so far.
+
+==============================================================================
+BUGS                                                        *MyVimAutoloadsBugs*
+
+If you find a bug please post it on the issue tracker:
+
+    https://github.com/chilicuil/my-autoloads.vim/issues
+
+==============================================================================
+CONTRIBUTING                                        *MyVimAutoloadsContributing*
+
+I created this plugin in an effort for cleaning up my chaotic vimrc > 1200 LOC!
+It does everything I need, if you use it and require something else, the best
+way to get it is to fork the repository, if you feel especially charitable,
+feel free to send your changes.
+
+GitHub: http://github.com/chilicuil/my-autoloads.vim/
+
+==============================================================================
+CHANGELOG                                              *MyVimAutoloadsChangelog*
+
+v0.0.1
+    * Initial release.
+
+==============================================================================
+CREDITS                                                  *MyVimAutoloadsCredits*
+
+Enhancements has been made by the following people:
+
+    * Your name,   https://github.com/your-name
+
+==============================================================================
+" vim: ft=help
