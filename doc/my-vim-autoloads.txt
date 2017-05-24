@@ -23,7 +23,7 @@ USAGE                                                      *MyVimAutoloadsUsage*
 
 Add. >
 
-        Bundle 'chilicuil/my-autoloads.vim'
+        Bundle 'javier-lopez/my-autoloads.vim'
 <
 To your $VIMRC file and run inside of vim: >
 
@@ -41,7 +41,7 @@ BUGS                                                        *MyVimAutoloadsBugs*
 
 If you find a bug please post it on the issue tracker:
 
-    https://github.com/chilicuil/my-autoloads.vim/issues
+    https://github.com/javier-lopez/my-autoloads.vim/issues
 
 ==============================================================================
 CONTRIBUTING                                        *MyVimAutoloadsContributing*
@@ -51,7 +51,7 @@ It does everything I need, if you use it and require something else, the best
 way to get it is to fork the repository, if you feel especially charitable,
 feel free to send your changes.
 
-GitHub: http://github.com/chilicuil/my-autoloads.vim/
+GitHub: http://github.com/javier-lopez/my-autoloads.vim/
 
 ==============================================================================
 CHANGELOG                                              *MyVimAutoloadsChangelog*

@@ -1,4 +1,4 @@
-[my-autoloads.vim](https://github.com/chilicuil/my-autoloads.vim) is a global plugin who set autoloads  according to they way I use [vim](http://vim.org). It sets highly opinionated settings. Probably not something you would like to use straight ahead. Some of the features are:
+[my-autoloads.vim](https://github.com/javier-lopez/my-autoloads.vim) is a global plugin who set autoloads  according to they way I use [vim](http://vim.org). It sets highly opinionated settings. Probably not something you would like to use straight ahead. Some of the features are:
 
 - Restore cursor to file position in previous editing session.
 - Turn off existing search highlighting.
@@ -15,7 +15,7 @@ Installation
 
 - [Vundle](https://github.com/gmarik/vundle) way (recommended), add the following to your $HOME/.vimrc file:
 
-        Bundle 'chilicuil/my-autoloads.vim'
+        Bundle 'javier-lopez/my-autoloads.vim'
 
     And run inside of vim:
 
@@ -23,7 +23,7 @@ Installation
 
 - [Pathogen](https://github.com/tpope/vim-pathogen) way:
 
-        $ git clone https://github.com/chilicuil/my-autoloads.vim.git ~/.vim/bundle/my-autoloads.vim
+        $ git clone https://github.com/javier-lopez/my-autoloads.vim.git ~/.vim/bundle/my-autoloads.vim
 
 - **Manual** (simplest if you've never heard of vundle or pathogen), download the zip file generated from github and extract it to $HOME/.vim
 
