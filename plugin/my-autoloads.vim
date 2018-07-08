@@ -12,13 +12,13 @@ let g:loaded_my_vim_autoloads = 1
 
 if has("autocmd")
     "Go back to the position the cursor was on the last time this file was edited
-    autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
+    autocmd BufWinEnter * if line("'\"") > 0 && line("'\"") <= line("$")
                 \|execute("normal '\"")|endif
+
+    autocmd VimEnter * nohls "turn off any existing search
 
     augroup vimrc "cannon be used with the above line, otherwise the cursor
                   "will jump randomly upon the first insert mode change
-    autocmd VimEnter * nohls "turn off any existing search
-
     "browse documentation with <Enter>/<BS>
     autocmd filetype help :nnoremap <buffer><CR> <c-]>
     autocmd filetype help :nnoremap <buffer><BS> <c-T>
